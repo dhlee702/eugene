@@ -1,9 +1,13 @@
-site_name: eugene
+site_name: Eugene Project Documents
 nav:
-  - 홈 : index.md
-  - 사용법 : how.md
-  - 세부사용법:
-    - '테마': 'guide/theme.md'
-    - '구조': 'guide/tree.md'
-
+  - 분석
+    - '요구사항 정의서' : 'analysis/requirements.md'
+  - 설계 : how.md
+    - '아키텍처 정의서'  : 'design/architecture.md'
+    - '클래스다이어그램' : 'design/class_diagram.md'
+    - '시퀀스다이어그램' : 
+  - 프로그램 
+    - '구조': 'coding/applications.md'
+  - 테스트
+    - '기능테스트' :'test/test_case_result.md'
 theme: readthedocs
