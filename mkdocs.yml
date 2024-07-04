@@ -1,0 +1,9 @@
+site_name: eugene
+nav:
+  - 홈 : index.md
+  - 사용법 : how.md
+  - 세부사용법:
+    - '테마': 'guide/theme.md'
+    - '구조': 'guide/tree.md'
+
+theme: readthedocs
